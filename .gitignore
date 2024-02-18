@@ -1,2 +1,7 @@
 .venv
 # No se van a subir las dependencias
+
+# Todos los archivos de pytest
+
+*/__pycache__
+*/.pytest_cache
