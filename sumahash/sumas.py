@@ -1,5 +1,10 @@
+import hashlib
+
+
 def obtener_hash(texto):
-    """
-    Proposito: retorna un sha256 que es string
-    """
-    return ""
+    h = hashlib.new("sha256")
+    h.update(bytes(texto, "utf-8"))
+    return h.hexdigest()
+
+    # bdatos = bytes(datos, "utf-8")
+    # texto = hashlib.new("sha256", bdatos)

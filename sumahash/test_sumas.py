@@ -1,3 +1,4 @@
+import pytest
 import sumas
 import pytest
 
