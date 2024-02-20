@@ -1,6 +1,5 @@
 import pytest
 import sumas
-import pytest
 
 
 @pytest.mark.parametrize(
